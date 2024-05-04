@@ -1,0 +1,1743 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  position: relative;
+  overflow: hidden;
+  background-color: #03268e;
+}
+
+@font-face {
+  font-family: a;
+  src: url(./jost-variable.ttf);
+}
+
+@font-face {
+  font-family: b;
+  src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\\(1\).ttf);
+}
+
+@font-face {
+  font-family: c;
+  src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\\(1\).ttf);
+}
+
+/* page 1 */
+
+#page1 {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: red; */
+  position: relative;
+}
+
+#page1 > video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#page1 > nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  position: fixed;
+  height: 10vh;
+  width: 95vw;
+  /* background-color: red; */
+}
+
+#page1 > nav > img {
+  width: 13%;
+  /* background-color: red; */
+  margin-left: -5vw;
+  margin-bottom: 2vw;
+}
+
+#right-nav button:nth-child(1) {
+  /* padding: 15px 30px; */
+  height: 2.7vw;
+  width: 8.5vw;
+  border-radius: 50px;
+  margin: 2vw;
+  margin-top: 3vw;
+  color: #fff;
+  background-color: #0940df;
+  border: 1px solid #ffffff3b;
+  font-family: a;
+  font-size: 18px;
+  font-weight: 100;
+  display: inline-block;
+}
+
+#right-nav button:nth-child(2) {
+  /* padding: 15px 30px; */
+  height: 2.5vw;
+  width: 5vw;
+  border-radius: 50px;
+  margin-top: 1vw;
+  color: #fff;
+  background-color: #0940df;
+  border: 1px solid #ffffff3b;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+#bottom-page1 {
+  position: absolute;
+  bottom: 28%;
+  left: 8%;
+  height: 40vh;
+  width: 50vw;
+}
+
+#bottom-page1 > h2 {
+  font-family: a;
+  font-size: 6.5vw;
+  color: #fff;
+  font-weight: 100;
+  line-height: 1;
+}
+
+#bottom-page2 {
+  display: flex;
+  /* background-color: red; */
+  margin-top: -2vw;
+}
+
+#bottom-page2 p {
+  color: #fff;
+  font-size: 1.3vw;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+#bottom-page2 button {
+  padding: 1vw 3.5vw;
+  border-radius: 50px;
+  border: none;
+  color: #0d4af1;
+  background-color: #fff;
+  font-size: 0.9vw;
+  margin-left: 2vw;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: a;
+  margin-top: 2.3vw;
+}
+
+/* page 2  */
+#page2 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #2741ee;
+  position: relative;
+  font-family: a;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  padding: 0 8vw;
+}
+
+#page2 > h2 {
+  /* margin-bottom: 10vw; */
+  margin-left: 1vw;
+  font-weight: 100;
+  font-size: 1.2vw;
+  margin-bottom: -1vw;
+  /* background-color: red; */
+}
+
+#page2 > h1 {
+  font-weight: 100;
+  width: 90%;
+  font-size: 4vw;
+  margin-left: 1vw;
+  margin-bottom: 10vw;
+  color: #dadada69;
+  /* background-color: red; */
+}
+
+/* page 3  */
+
+#page3 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a3cce;
+}
+
+#page3 > canvas {
+  position: relative;
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+/* page 4  */
+
+#page4 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #2741ee;
+  position: relative;
+  font-family: a;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  padding: 5vw 8vw;
+}
+
+#page4 > h2 {
+  /* margin-bottom: 10vw; */
+  margin-left: 1vw;
+  font-weight: 100;
+  font-size: 1.2vw;
+  margin-bottom: -1vw;
+  /* background-color: red; */
+}
+
+#page4 > h1 {
+  font-weight: 100;
+  width: 80%;
+  font-size: 3.7vw;
+  margin-left: 1vw;
+  margin-bottom: 10vw;
+  color: #dadada69;
+  line-height: ;
+  /* background-color: red; */
+}
+
+/* page 5  */
+
+#page5 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  /* background-color:  #0A3CCE; */
+}
+
+#page5 > canvas {
+  position: relative;
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+/* page 6  */
+
+#page6 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a3cce;
+  position: relative;
+  font-family: a;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  padding: 5vw 8vw;
+}
+
+#page6 > h2 {
+  /* margin-bottom: 10vw; */
+  margin-left: 1vw;
+  font-weight: 100;
+  font-size: 1.2vw;
+  margin-bottom: -1vw;
+  /* background-color: red; */
+}
+
+#page6 > h1 {
+  font-weight: 100;
+  width: 80%;
+  font-size: 3.7vw;
+  margin-left: 1vw;
+  margin-bottom: 10vw;
+  color: #dadada69;
+  line-height: ;
+  /* background-color: red; */
+}
+
+/* page 7  */
+#page7 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a3cce;
+}
+
+#page7 > canvas {
+  position: relative;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.page7-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.page7cir-inner {
+  height: 70%;
+  width: 70%;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+/* page 8 */
+
+#page8 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0a3cce;
+}
+
+#page8 > video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.page8-bottom {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.page8-bottom > h1 {
+  color: #fff;
+  margin-bottom: 2vw;
+  font-size: 5vw;
+  font-weight: 100;
+}
+
+.page8-bottom button {
+  padding: 1vw 3.5vw;
+  border-radius: 50px;
+  border: none;
+  color: #0d4af1;
+  background-color: #fff;
+  font-size: 0.9vw;
+  margin-left: 2vw;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: a;
+  margin-top: 2.3vw;
+}
+
+/* page 9  */
+
+#page9 {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #062fa8;
+}
+
+.left9 {
+  height: 100%;
+  width: 40%;
+  /* background-color: #0B3BCA; */
+  position: relative;
+}
+
+.left9 > h1 {
+  font-family: a;
+  color: white;
+  font-weight: 100;
+  font-size: 6vw;
+  line-height: 1;
+  padding: 7vw 10vw;
+}
+
+.right9 {
+  height: 100%;
+  width: 60%;
+  /* background-color: #0B3BCA; */
+  position: relative;
+}
+
+.right9-center {
+  height: 66%;
+  width: 90%;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  object-fit: cover;
+  /* background-repeat: no-repeat; */
+  background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
+  transform: translateY(-50%);
+}
+
+/* page 10  */
+#page10 {
+  /* display: flex; */
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #062fa8;
+}
+
+.right10 {
+  height: 100%;
+  width: 60%;
+  margin-top: -1.4vw;
+  position: relative;
+  left: 37%;
+  bottom: 8%;
+  background-color: #062fa8;
+}
+
+.right10-inner {
+  height: 33.3%;
+  width: 100%;
+  background-color: #062fa8;
+  font-family: a;
+  font-weight: 100;
+}
+
+.right10-inner h1 {
+  color: #fff;
+  font-weight: 100;
+}
+
+.right10-inner p {
+  color: #ffffff9a;
+  font-size: 1.5vw;
+  font-weight: 100;
+}
+
+/* page 11  */
+
+#gappage {
+  display: grid;
+  position: absolute;
+  grid-auto-flow: column;
+  grid-auto-columns: 50%;
+  position: relative;
+  height: 250vh;
+  width: 100vw;
+  background-color: #02268e;
+}
+
+#gap-left {
+  /* background-color: red; */
+  margin-left: 7vw;
+  padding: 2vw 2vw;
+  height: 250vh;
+  /* width: 100vw; */
+  /* border-left: 1px solid black; */
+}
+
+#gap-left h1 {
+  color: #fff;
+  font-family: a;
+  font-size: 6.5vw;
+  font-weight: 100;
+  letter-spacing: -6px;
+}
+
+#roadmap {
+  /* background-color: chocolate; */
+  height: 190vh;
+  width: 100%;
+  border-left: 1px solid rgba(255, 255, 255, 0.075);
+}
+
+.hidden {
+  opacity: 0.1;
+  transition: opacity 3s ease;
+}
+
+.show {
+  opacity: 1;
+  scroll-margin-top: 10vw;
+}
+
+#roadmap1 {
+  /* background-color: #6d6969; */
+  padding: 0vw 2vw;
+  font-family: a;
+  height: 40vh;
+}
+
+#roadmap1 h5 {
+  color: #fff;
+  font-size: 1vw;
+}
+
+#roadmap1 h1 {
+  font-size: 3vw;
+  line-height: 1;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+#roadmap1 p {
+  color: #ffffffa4;
+  font-size: 1.2vw;
+}
+
+#roadmap2 {
+  /* background-color: #ff0800; */
+  padding: 5vw 2vw;
+  font-family: a;
+}
+
+#roadmap2 h5 {
+  color: #fff;
+  font-size: 1vw;
+}
+
+#roadmap2 h1 {
+  font-size: 3vw;
+  line-height: 1;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+#roadmap2 p {
+  color: #ffffffa4;
+  font-size: 1.2vw;
+}
+
+#roadmap3 {
+  /* background-color: #ff0800; */
+  padding: 5vw 2vw;
+  font-family: a;
+}
+
+#roadmap3 h5 {
+  color: #fff;
+  font-size: 1vw;
+}
+
+#roadmap3 h1 {
+  font-size: 3vw;
+  line-height: 1;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+#roadmap3 p {
+  color: #ffffffa4;
+  font-size: 1.2vw;
+}
+
+#roadmap4 {
+  /* background-color: #ff0800; */
+  padding: 5vw 2vw;
+  font-family: a;
+}
+
+#roadmap4 h5 {
+  color: #fff;
+  font-size: 1vw;
+}
+
+#roadmap4 h1 {
+  font-size: 3vw;
+  line-height: 1;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+#roadmap4 p {
+  color: #ffffffa4;
+  font-size: 1.2vw;
+}
+
+#gap-right {
+  position: relative;
+  height: 300vh;
+  width: 100vw;
+  /* background-color:  #dad9d9; */
+}
+
+#gap-right > canvas {
+  position: relative;
+  padding: 5vw 2vw;
+  /* max-height: 100vh;
+      max-width: 100vw;  */
+}
+
+/* Page11 */
+
+#page11 {
+  /* display: flex; */
+  position: relative;
+  height: 150vh;
+  width: 100vw;
+  margin-top: 10vw;
+  background-color: #ecf2ff;
+}
+
+#page11 h1 {
+  padding: 8vw 8vw;
+  font-family: a;
+  font-weight: 100;
+  font-size: 6vw;
+  letter-spacing: -5px;
+}
+
+.inner-slides {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 30%;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  bottom: 15%;
+  gap: 10vw;
+  padding: 5vw 8vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* white-space: nowrap; */
+  user-select: none;
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  /*  
+    background-color: red; */
+}
+
+.slide1 {
+  height: 49vh;
+  width: 120%;
+  background-position: 0px 0px;
+  background-color: aqua;
+  background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1-1.jpeg);
+  border-radius: 20px;
+  background-size: 100%;
+  margin-top: 1vw;
+  transition: all 1s ease-in-out;
+}
+
+.slide1:hover {
+  background-size: 105%;
+}
+
+#slide1title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  height: 10vh;
+  width: 36vw;
+  position: relative;
+  top: 100%;
+  right: 1%;
+}
+
+#slide1title > h1 {
+  margin-right: 26vw;
+  font-family: a;
+  font-size: 3.1vw;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#slide1content {
+  /* background-color: red; */
+  position: relative;
+  top: 95%;
+  left: -4%;
+}
+
+#slide1content ul {
+  line-height: 40px;
+  color: #56565c;
+  text-transform: capitalize;
+  font-size: 1vw;
+  list-style: none;
+}
+
+#slide1content li {
+  position: relative;
+  padding: 0rem 1.5rem;
+}
+
+#slide1content li::before {
+  content: ""; /* placeholder for the SVG */
+  position: absolute;
+  margin-top: 10px;
+  filter: invert(31%) sepia(8%) saturate(357%) hue-rotate(202deg)
+    brightness(96%) contrast(83%);
+  left: 0; /* place the SVG at the start of the padding */
+  width: 0.6em;
+  height: 1em;
+  line-height: 2;
+  background: url("check-solid.svg") no-repeat;
+}
+
+.slide2 {
+  height: 49vh;
+  width: 120%;
+  background-color: rgb(94, 209, 27);
+  background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-2-1.5x.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 1vw;
+  background-size: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.slide2:hover {
+  background-size: 105%;
+}
+
+#slide2title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  height: 10vh;
+  width: 36vw;
+  position: relative;
+  top: 100%;
+  right: 1%;
+}
+
+#slide2title > h1 {
+  margin-left: -17vw;
+  font-family: a;
+  font-size: 3.1vw;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.87);
+  /* background-color: rosybrown; */
+}
+
+#slide2content {
+  /* background-color: red; */
+  position: relative;
+  top: 95%;
+  left: -4%;
+}
+
+#slide2content ul {
+  line-height: 40px;
+  color: #56565c;
+  text-transform: capitalize;
+  font-size: 1vw;
+  list-style: none;
+}
+
+#slide2content li {
+  position: relative;
+  padding: 0rem 1.5rem;
+}
+
+#slide2content li::before {
+  content: ""; /* placeholder for the SVG */
+  position: absolute;
+  margin-top: 10px;
+  filter: invert(31%) sepia(8%) saturate(357%) hue-rotate(202deg)
+    brightness(96%) contrast(83%);
+  left: 0; /* place the SVG at the start of the padding */
+  width: 0.6em;
+  height: 1em;
+  line-height: 2;
+  background: url("check-solid.svg") no-repeat;
+}
+
+.slide3 {
+  height: 49vh;
+  width: 120%;
+  background-color: rgb(202, 216, 13);
+  background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-3-1.5x.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 1vw;
+  background-size: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.slide3:hover {
+  background-size: 105%;
+}
+
+#slide3title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  height: 10vh;
+  width: 36vw;
+  position: relative;
+  top: 100%;
+  right: 1%;
+}
+
+#slide3title > h5 {
+  margin-left: 1vw;
+  font-family: a;
+  font-size: 3.1vw;
+  width: 40vw;
+  font-weight: 100;
+  letter-spacing: -2.5px;
+  color: rgba(0, 0, 0, 0.87);
+  /* background-color: #ff0800; */
+}
+
+#slide3content {
+  /* background-color: red; */
+  position: relative;
+  top: 95%;
+  left: -4%;
+}
+
+#slide3content ul {
+  line-height: 40px;
+  color: #56565c;
+  text-transform: capitalize;
+  font-size: 1vw;
+  list-style: none;
+}
+
+#slide3content li {
+  position: relative;
+  padding: 0rem 1.5rem;
+}
+
+#slide3content li::before {
+  content: ""; /* placeholder for the SVG */
+  position: absolute;
+  margin-top: 10px;
+  filter: invert(31%) sepia(8%) saturate(357%) hue-rotate(202deg)
+    brightness(96%) contrast(83%);
+  left: 0; /* place the SVG at the start of the padding */
+  width: 0.6em;
+  height: 1em;
+  line-height: 2;
+  background: url("check-solid.svg") no-repeat;
+}
+
+.slide4 {
+  height: 49vh;
+  width: 120%;
+  background-color: rgb(202, 216, 13);
+  background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-4-1.5x.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 1vw;
+
+  background-size: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.slide4:hover {
+  background-size: 105%;
+}
+
+#slide4title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  height: 10vh;
+  width: 36vw;
+  position: relative;
+  top: 100%;
+  right: 1%;
+}
+
+#slide4title > h1 {
+  margin-left: -16vw;
+  font-family: a;
+  font-size: 3.1vw;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#slide4content {
+  /* background-color: red; */
+  position: relative;
+  top: 95%;
+  left: -4%;
+}
+
+#slide4content ul {
+  line-height: 40px;
+  color: #56565c;
+  text-transform: capitalize;
+  font-size: 1vw;
+  list-style: none;
+}
+
+#slide4content li {
+  position: relative;
+  padding: 0rem 1.5rem;
+}
+
+#slide4content li::before {
+  content: ""; /* placeholder for the SVG */
+  position: absolute;
+  margin-top: 10px;
+  filter: invert(31%) sepia(8%) saturate(357%) hue-rotate(202deg)
+    brightness(96%) contrast(83%);
+  left: 0; /* place the SVG at the start of the padding */
+  width: 0.6em;
+  height: 1em;
+  line-height: 2;
+  background: url("check-solid.svg") no-repeat;
+}
+
+.slide5 {
+  height: 49vh;
+  width: 120%;
+  background-color: rgb(202, 216, 13);
+  background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-5-1.5x.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 1vw;
+
+  background-size: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.slide5:hover {
+  background-size: 105%;
+}
+
+#slide5title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  height: 10vh;
+  width: 36vw;
+  position: relative;
+  top: 100%;
+  right: 1%;
+}
+
+#slide5title > h1 {
+  margin-right: 25vw;
+  font-family: a;
+  font-size: 3.1vw;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#slide5content {
+  /* background-color: red; */
+  position: relative;
+  top: 95%;
+  left: -4%;
+}
+
+#slide5content ul {
+  line-height: 40px;
+  color: #56565c;
+  text-transform: capitalize;
+  font-size: 1vw;
+  list-style: none;
+}
+
+#slide5content li {
+  position: relative;
+  padding: 0rem 1.5rem;
+}
+
+#slide5content li::before {
+  content: ""; /* placeholder for the SVG */
+  position: absolute;
+  margin-top: 10px;
+  filter: invert(31%) sepia(8%) saturate(357%) hue-rotate(202deg)
+    brightness(96%) contrast(83%);
+  left: 0; /* place the SVG at the start of the padding */
+  width: 0.6em;
+  height: 1em;
+  line-height: 2;
+  background: url("check-solid.svg") no-repeat;
+}
+
+.slide6 {
+  height: 49vh;
+  width: 120%;
+  background-color: rgb(202, 216, 13);
+  background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-6.jpeg);
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 1vw;
+
+  background-size: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.slide6:hover {
+  background-size: 105%;
+}
+
+#slide6title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  height: 10vh;
+  width: 66vw;
+  position: relative;
+  top: 100%;
+  right: 1%;
+}
+
+#slide6title > h1 {
+  margin-right: 53vw;
+  font-family: a;
+  font-size: 3.1vw;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#slide6content {
+  /* background-color: red; */
+  position: relative;
+  top: 95%;
+  left: -4%;
+}
+
+#slide6content ul {
+  line-height: 40px;
+  color: #56565c;
+  text-transform: capitalize;
+  font-size: 1vw;
+  list-style: none;
+}
+
+#slide6content li {
+  position: relative;
+  padding: 0rem 1.5rem;
+}
+
+#slide6content li::before {
+  content: ""; /* placeholder for the SVG */
+  position: absolute;
+  margin-top: 10px;
+  filter: invert(31%) sepia(8%) saturate(357%) hue-rotate(202deg)
+    brightness(96%) contrast(83%);
+  left: 0; /* place the SVG at the start of the padding */
+  width: 0.6em;
+  height: 1em;
+  line-height: 2;
+  background: url("check-solid.svg") no-repeat;
+}
+
+/* Page12 */
+
+#page12 {
+  display: grid;
+  /* position: absolute; */
+  grid-auto-flow: column;
+  grid-auto-columns: 60%;
+  position: relative;
+  height: 200vh;
+  width: 100vw;
+  background-color: #ffffff;
+  /* background-color: burlywood; */
+  font-family: a;
+}
+
+#left12 {
+  position: relative;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1vw;
+  cursor: pointer;
+  /* background-color: rgb(150, 12, 12); */
+}
+
+#left12 h1 {
+  font-size: 6vw;
+  font-weight: 100;
+  margin-right: 10vw;
+  padding: 1vw 1vw;
+  /* height: 5vh; */
+  /* background-color: #041331; */
+}
+
+#left12 .blog1 {
+  height: 38.5vh;
+  width: 40vw;
+  background-image: url(https://thisismagma.com/wp-content/uploads/2024/03/thisismagma.com-live-event-1-min-scaled.jpg);
+  background-size: cover;
+  background-size: 100%;
+  border-radius: 18px;
+  transition: all 0.8s ease-in-out;
+  /* background-color: #f11101; */
+}
+
+#left12 .blog1:hover {
+  background-size: 105%;
+  transform: scale(1.1);
+}
+
+#left12 .blog2:hover {
+  background-size: 105%;
+  transform: scale(1.1);
+}
+
+#left12 .blog3:hover {
+  background-size: 105%;
+  transform: scale(1.1);
+}
+
+#left12 .blog2 {
+  height: 38.5vh;
+  width: 40vw;
+  background-image: url(https://thisismagma.com/wp-content/uploads/2024/03/thisismagma.com-magma-x-stegx-partnership-announcement-magma-real-estate-announcement-cover-new.png);
+  background-size: cover;
+  border-radius: 18px;
+  background-size: 100%;
+  transition: all 0.8s ease-in-out;
+  /* background-color: #041331; */
+}
+
+#left12 .blog3 {
+  height: 38.5vh;
+  width: 40vw;
+  background-image: url(https://thisismagma.com/wp-content/uploads/2024/02/thisismagma.com-magma-obtient-le-label-finance-innovation-000.jpeg);
+  background-size: cover;
+  border-radius: 18px;
+  background-size: 100%;
+  transition: all 0.8s ease-in-out;
+  /* background-color: #041331; */
+}
+
+#right12 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20vw 0vw;
+  margin-left: -8vw;
+  /* justify-content: center; */
+  /* margin-top: -10vw; */
+  font-family: a;
+  /* background-color: rgba(0, 255, 191, 0.555); */
+}
+
+#right12 .blog1 h5 {
+  color: #0000008f;
+  font-size: 1vw;
+}
+
+#right12 .blog1 p {
+  font-size: 1.5vw;
+  font-weight: 100;
+  color: #000000c7;
+}
+
+#right12 .blog2 {
+  padding: 10vw 0vw;
+}
+
+#right12 .blog2 h5 {
+  color: #0000008f;
+  font-size: 1vw;
+}
+
+#right12 .blog2 p {
+  font-size: 1.5vw;
+  font-weight: 100;
+  color: #000000c7;
+}
+
+#right12 .blog3 {
+  padding: 1vw 0vw;
+}
+
+#right12 .blog3 h5 {
+  color: #000000af;
+  font-size: 1vw;
+}
+
+#right12 .blog3 p {
+  font-size: 1.5vw;
+  font-weight: 100;
+  color: #000000c7;
+}
+
+#right12 button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 5vh;
+  width: 10vw;
+  font-size: 0.85vw;
+  font-family: a;
+  color: #02268e;
+  border: 1px solid #02268e;
+  border-radius: 50px;
+  margin-top: 15vw;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+#right12 button i:nth-child(1) {
+  margin-left: 2vw;
+  font-size: 1.2vw;
+  font-weight: 100;
+  transition: all 1s;
+  position: relative;
+}
+
+#right12 button i:nth-child(2) {
+  position: relative;
+  font-size: 1.2vw;
+  font-weight: 100;
+  transition: all 1s;
+  opacity: 0;
+}
+
+#right12 button:hover i:nth-child(1) {
+  transform: translate(100%);
+  /* color: #fff;
+  opacity: 0;
+   */
+}
+
+#right12 button:hover i:nth-child(2) {
+  transform: translate(300%);
+  color: #fff;
+  opacity: 1;
+}
+
+/* Page13 */
+
+#page13 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #02268e;
+  /* background-color: red; */
+  line-height: 1;
+  /* margin-top: 100vw; */
+}
+
+#page13-inner {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+  color: #fff;
+  font-family: a;
+}
+
+#page13-inner > h1 {
+  font-size: 5.5vw;
+  font-weight: 100;
+}
+
+#page13-inner > p {
+  font-size: 1.3vw;
+  color: #a8b4d8;
+  line-height: 1.5;
+}
+
+#moving-div {
+  /* margin-top: 10vh; */
+  position: absolute;
+  top: 65%;
+  width: 100%;
+  padding: 1.2vw;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#moving-div .move {
+  display: inline-block;
+  animation-name: mobe;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#moving-div .move img {
+  height: 3vw;
+  margin: 0 5vw;
+}
+
+@keyframes mobe {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#blur-left {
+  height: 100%;
+  width: 20%;
+  background: linear-gradient(to right, #02268e, transparent);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+#blur-right {
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  background: linear-gradient(to right, transparent, #02268e);
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+/* Page14 */
+#page14 {
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+  background-color: #0f0f17;
+  color: #ffffff;
+  font-family: a;
+  padding: 10vw 10vw;
+}
+
+#page14 > h1 {
+  font-size: 6vw;
+  line-height: 1;
+  font-weight: 100;
+}
+
+#page14 > button {
+  height: 7vh;
+  width: 12vw;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1vw;
+  font-weight: 100;
+  font-family: a;
+  background-color: #0a3cce;
+  border: none;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+#page14 > button:hover {
+  background-color: #fff;
+  color: #02268e;
+}
+
+#page14 > button.slide_from_bottom::after {
+  left: 0;
+  right: 0;
+  top: 100%;
+  bottom: -100%;
+}
+
+/* Page15 */
+
+#page15 {
+  position: relative;
+  height: 60vh;
+  width: 100vw;
+  background-color: #0f0f17;
+}
+
+.page15-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0vw 10vw;
+  font-family: a;
+  height: 33.3%;
+  width: 100%;
+  color: #fff;
+  border-top: 1px solid #ffffff28;
+  border-bottom: 1px solid #ffffff28;
+  cursor: pointer;
+}
+
+.page15-inner:nth-child(3) {
+  border-top: 1px solid #ffffff28;
+  border-bottom: 1px solid #ffffff28;
+}
+
+.page15-inner pre {
+  font-size: 3vw;
+  font-family: a;
+  font-weight: 100;
+  position: relative;
+  z-index: 9999;
+}
+
+.page15-inner i {
+  font-weight: 100;
+  font-size: 2.4vw;
+  position: relative;
+  margin-left: 65vw;
+  /* background-color: green; */
+  z-index: 9999;
+}
+
+#space {
+  margin-left: 1vw;
+  color: #fff;
+}
+
+.center15 {
+  height: 0%;
+  width: 100%;
+  background-color: #0a3cce;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all ease 0.5s;
+}
+
+.page15-inner:hover .center15 {
+  height: 100%;
+}
+
+footer {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  padding: 1vw 0vw;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -1vw;
+  border-top: 1px solid #ffffff28;
+  background-color: #0f0f17;
+}
+
+footer #list1 {
+  height: 45%;
+  width: 5%;
+  position: relative;
+  right: 5vw;
+  top: 2vw;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  /* transition: all 1s ease-in; */
+  /* background-color: green; */
+}
+
+footer #list1 h5 {
+  /* line-height: 0.8; /* Adjust the value as needed */
+  /*  margin-bottom: 0.1em; /* Adjust the value as needed */
+  /*  padding-top: 0.1em; /* Adjust the value as needed */
+  /* padding-bottom: 0.2em; Adjust the value as needed */
+}
+
+footer #list1 h5:nth-child(1) {
+  font-family: a;
+  font-size: 1vw;
+  font-weight: 100;
+  padding: 0.6vw 0vw;
+  width: 4vw;
+  color: #ffffffc0;
+  /* background-color: red; */
+  margin-bottom: -2vw;
+  /* border-bottom: 2px solid #0F0F17; */
+  transition: border-bottom 0.6s ease;
+}
+
+footer #list1 h5:nth-child(2) {
+  font-family: a;
+  font-size: 1vw;
+  font-weight: 100;
+  padding: 0.6vw 0vw;
+  /* width: 4vw;
+  height: ; */
+  color: #ffffffc0;
+  /* border-bottom: 1px solid #fff; */
+  /* background-color: red; */
+  margin-bottom: -2vw;
+}
+
+footer #list1 h5:nth-child(3) {
+  font-family: a;
+  font-size: 1vw;
+  font-weight: 100;
+  padding: 0.6vw 0vw;
+  width: 2.8vw;
+  color: #ffffffc0;
+  /* border-bottom: 1px solid #fff; */
+  /* background-color: red; */
+  margin-bottom: -2vw;
+}
+
+footer #list1 h5:nth-child(4) {
+  font-family: a;
+  font-size: 1vw;
+  font-weight: 100;
+  padding: 0.6vw 0vw;
+  width: 3vw;
+  color: #ffffffc0;
+  /* border-bottom: 1px solid #fff; */
+  /* background-color: red; */
+  /* margin-top: -6vw; */
+}
+
+footer #list1 .open {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff; /* Text color */
+}
+
+.open::before,
+.open::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 1px; /* Border thickness */
+  background-color: #fff; /* Border color */
+  transition: width 0.3s ease; /* Transition duration */
+}
+
+.open::before {
+  left: 0;
+}
+
+.open::after {
+  right: 0;
+}
+
+.open:hover::before,
+.open:hover::after {
+  width: 50%; /* Width of the opening effect */
+}
+
+footer #list2 {
+  height: 30%;
+  width: 10%;
+  font-family: a, sans-serif;
+  font-size: 1.1vw;
+  font-weight: 100;
+  margin-right: 4vw;
+  position: relative;
+  color: #fff;
+  left: 5vw;
+  top: 3.5vw;
+  cursor: pointer;
+  /* background-color: rgb(101, 96, 114); */
+}
+
+footer #list2 h5 {
+  line-height: 0.8; /* Adjust the value as needed */
+  margin-bottom: 1.5em; /* Adjust the value as needed */
+  /* padding-top: 0.1em; /* Adjust the value as needed */
+  /* padding-bottom: 0.2em; /* Adjust the value as needed */
+}
+
+footer #list2 h5:nth-child(1) {
+  font-family: a;
+  font-size: 1vw;
+  font-weight: 100;
+  padding: 0.6vw 0vw;
+  width: 5.1vw;
+  color: #c4c4c6;
+  /* background-color: red; */
+  margin-top: -1vw;
+  transition: border-bottom 0.6s ease;
+}
+
+footer #list2 h5:nth-child(2) {
+  font-family: a;
+  font-size: 1vw;
+  font-weight: 100;
+  padding: 0.6vw 0vw;
+  width: 8vw;
+
+  color: #c4c4c6;
+  /* border-bottom: 1px solid #fff; */
+  /* background-color: red; */
+  margin-top: -1vw;
+}
+
+footer #list2 h5:nth-child(3) {
+  font-family: a;
+  font-size: 1vw;
+  font-weight: 100;
+  padding: 0.6vw 0vw;
+  width: 2vw;
+  color: #c4c4c6;
+  /* border-bottom: 1px solid #fff; */
+  /* background-color: red; */
+  margin-top: -1vw;
+}
+
+footer #list2 .open {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff; /* Text color */
+}
+
+.open::before,
+.open::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 1px; /* Border thickness */
+  background-color: #fff; /* Border color */
+  transition: width 0.3s ease; /* Transition duration */
+}
+
+.open::before {
+  left: 0;
+}
+
+.open::after {
+  right: 0;
+}
+
+.open:hover::before,
+.open:hover::after {
+  width: 50%; /* Width of the opening effect */
+}
+
+footer #list3 {
+  height: 50%;
+  width: 25%;
+  position: relative;
+  left: 30vw;
+  top: 2vw;
+  /* background-color: rgb(197, 192, 115); */
+}
+
+footer #list3 h1 {
+  color: #fff;
+  font-family: a;
+  font-size: 1.5vw;
+  font-weight: 100;
+}
+
+footer #list3 input {
+  font-size: 1vw;
+  color: #fff;
+  height: 3vw;
+  width: 30vw;
+  font-family: a;
+  background-color: transparent;
+  border: 1px solid #0f0f17;
+  border-bottom: 1px solid #ffffff46;
+  transition: all 0.5s;
+}
+
+footer #list3 input:hover {
+  border-bottom: 1px solid #fff;
+}
+
+::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+footer #list3 i {
+  color: #fff;
+  position: relative;
+  font-size: 2vw;
+  bottom: 2.7vw;
+  left: 28vw;
+  /* margin-left: 30vw; */
+  font-weight: 100;
+}
+
+footer #list4 {
+  height: 10%;
+  width: 25%;
+  position: relative;
+  top: 38%;
+  right: 47%;
+  /* background-color: rgb(226, 100, 26); */
+}
+
+footer #list4 h1 {
+  font-family: a;
+  font-size: 1vw;
+  font-weight: 100;
+  color: #ffffff96;
+  font-size: 1vw;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(50%);
+  transition: all 1.5s;
+}
+
+/* @media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
+ 
+*/
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+
+.hh {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1.5s;
+}
+
+/* @media(prefers-reduced-motion){
+  .hidden{
+      transition: none;
+  }
+}
+
+*/
+
+.unh {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
